@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tikboo Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="login-area">
+        <h1 class="banktitle">WillCome Tikboo Bank</h1>
+
+        
+    <div class="submit-area">
+        <h4 class="login">Login-Area</h4>
+         <input type="text" class="form-control" placeholder="Email Name">
+         <br>
+         <input type="password"class="form-control" placeholder="Enter the password">
+         <br>
+         <button id="login" class="btn btn-success btn-buttom">Enter</button>
+    </div>
+
+    </div>
+    <div id="transection">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="deposit stutes ">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="curent">00</span></h2> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Withdraw stutes">
+                    <h5>Withdraw</h5>
+                    <h2>$  <span id="currentDeposit">00</span> </h2>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="Balance stutes">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="curentBlance">1249</span></h2>
+                </div>
+                
+            </div>
+        </div>
+       <div class="row">
+           <div class="col-md-6">
+               <div  class="deposit-area">
+                <h4>Deposit</h4>
+                <input id="depositammount" type="text" class="deposit-input" placeholder="$ Deposit Amuont">
+                <br>
+                <button id="adddeposit" class="btn btn-success">Deposit</button>
+               </div> 
+            </div>
+           <div class="col-md-6">
+               <div class="withdraw-area">
+                <h4>Withdraw</h4>
+                <input id="withdrawAmmount" type="text" class="withdraw-input" placeholder="$ Withdraw Amaount">
+                <br>
+                <button id="addwithdraw" class="btn btn-success">Withdraw</button>
+               </div>
+               
+            </div>
+       </div> 
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
